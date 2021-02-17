@@ -1,0 +1,67 @@
+body{
+    font-family: roboto;
+}
+#row{
+    background-image: url(fotos/1111.jpg);
+    width: 100%;
+    height: 780px;
+    top: 93px;
+    background-size: cover; 
+    
+}
+
+#fondo{
+    text-align: left;
+    padding-left: 6em;
+    padding-top: 10em;
+}
+
+#fondo h1{
+    font-weight: bold;
+    font-size: 5.375em;
+    align-self: initial;
+    position: relative;
+    letter-spacing: 2px;
+}
+
+#fondo:before{
+    content: '';
+    position: absolute;
+    background-color: #FFFFFF;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 35%;
+}
+
+.button-consorcio{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    border: red;
+    width: 9.5em;
+    height: 1.625em;
+    font-size:1.4em;
+    margin: 1em;
+}
+
+#fondo h3{
+    position: relative;
+    font-size:1.2em;
+    margin-left: 2.4em;
+}
+
+#row2{
+    height: 350px;
+    font-size:5.375em;
+    font-weight: bold;
+    margin-top: 1em;
+    margin-bottom: 0.2em;
+}
+#row3{
+    background-image: url(fotos/row-3.jpg);
+    background-size: cover;
+    height: 35em;
+}
