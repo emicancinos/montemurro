@@ -2,9 +2,9 @@ body{
     font-family: roboto;
 }
 #row{
-    background-image: url(fotos/1111.jpg);
+    background-image: url(fotos/fotos-archivo/Banner.png);
     width: 100%;
-    height: 780px;
+    height: 650px;
     top: 93px;
     background-size: cover; 
     
@@ -18,21 +18,10 @@ body{
 
 #fondo h1{
     font-weight: bold;
-    font-size: 5.375em;
+    font-size: 3.4em;
     align-self: initial;
     position: relative;
     letter-spacing: 2px;
-}
-
-#fondo:before{
-    content: '';
-    position: absolute;
-    background-color: #FFFFFF;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    opacity: 35%;
 }
 
 .button-consorcio{
@@ -55,13 +44,38 @@ body{
 
 #row2{
     height: 350px;
-    font-size:5.375em;
+    font-size:3.4em;
     font-weight: bold;
     margin-top: 1em;
     margin-bottom: 0.2em;
 }
 #row3{
     background-image: url(fotos/row-3.jpg);
+    width: 494px;
+    height: 500px;
     background-size: cover;
-    height: 35em;
+}
+.parrafo{
+    font-size: 15px;
+    text-align: left;
+    font-weight: normal;
+    font-family: roboto;
+    line-height: 33px;
+}
+#administracion{
+    background-image: url(fotos/fotos-archivo/Img_Administración.png);
+    height: 550px;
+    width: 100%;
+    background-size: cover;
+}
+
+#administracion h3{
+    font-weight: bold;
+    font-size: 3.4em;
+    margin-top: 100px;
+}
+
+#administracion p{
+    position: relative;
+    top: 150px;
 }
