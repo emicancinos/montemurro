@@ -90,6 +90,19 @@ body{
     display: flex;
     justify-content: space-around;
     width: 1200px;
-    top: 20px;
-    
+    top: 40px;
+}
+
+.grilla2{
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    top: 63px;
+}
+
+.grilla3{
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    top: 86px;
 }
