@@ -1,9 +1,11 @@
 body{
     font-family: roboto;
+    top: 90px;
+    position: relative;
 }
 #row{
     background-image: url(fotos/fotos-archivo/Banner.png);
-    width: 100%;
+    
     height: 650px;
     top: 93px;
     background-size: cover; 
@@ -18,10 +20,11 @@ body{
 
 #fondo h1{
     font-weight: bold;
-    font-size: 3.4em;
+    font-size: 4em;
     align-self: initial;
     position: relative;
     letter-spacing: 2px;
+    line-height: 70px;
 }
 
 .button-consorcio{
@@ -43,17 +46,21 @@ body{
 }
 
 #row2{
-    height: 350px;
-    font-size:3.4em;
+    height: 260px;
+    font-size:4em;
     font-weight: bold;
     margin-top: 1em;
     margin-bottom: 0.2em;
+    line-height: 70px;
+    letter-spacing: 2px;
 }
 #row3{
-    background-image: url(fotos/row-3.jpg);
-    width: 100%;
+    background-image: url(fotos/fotos-archivo/Img_TrabajoCompromisoEquipo.png);
+    width: 20px;
     height: 500px;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: contain;
+    
     
 }
 .parrafo{
@@ -61,22 +68,23 @@ body{
     text-align: left;
     font-weight: normal;
     font-family: roboto;
-    line-height: 33px;
-    width: 700px;
+    line-height: 40px;
+    width: 650px;
     
 }
 #administracion{
     background-image: url(fotos/fotos-archivo/Img_Administración.png);
     height: 550px;
-    width: 100%;
+  
     background-size: cover;
   
 }
 
 #administracion h3{
     font-weight: bold;
-    font-size: 3.4em;
+    font-size: 4em;
     margin-top: 100px;
+    letter-spacing: 2px;
 }
 
 #administracion p{
@@ -91,6 +99,12 @@ body{
     justify-content: space-around;
     width: 1200px;
     top: 40px;
+    font-size: 18px;
+    line-height: 30px;
+}
+#grilla1-imagen{
+    background-image: url(fotos/fotos-archivo/grilla1.png);
+    background-size: cover;
 }
 
 .grilla2{
@@ -99,10 +113,61 @@ body{
     width: 1200px;
     top: 63px;
 }
+.grilla2 p{
+    padding:15px;
+    font-size: 18px;
+    line-height: 30px;
+}
+#grilla2-imagen{
+    background-image: url(fotos/fotos-archivo/grilla2.png);
+    background-size: cover;
+}
 
 .grilla3{
     display: flex;
     justify-content: space-around;
     width: 1200px;
     top: 86px;
+}
+.grilla3 p{
+    padding:15px;
+    font-size: 18px;
+    line-height: 30px;
+}
+#grilla3-imagen{
+    background-image: url(fotos/fotos-archivo/grilla3.png);
+    background-size: cover;
+}
+#auditoria{
+    height: 550px;
+    background-image: url(fotos/fotos-archivo/Img_Auditoria.png);
+    background-size: cover;
+    position: relative;
+    top: 120px;
+   
+}
+#auditoria h3{
+    font-weight: bold;
+    font-size: 4em;
+    margin-top: 100px;
+    letter-spacing: 2px;
+    text-align: right;
+}
+#auditoria p{
+    margin-left: 15px;
+    font-size: 18px;
+    line-height: 40px;
+    margin-top: 50px;
+}
+#grilla4-imagen{
+    background-image: url(fotos/fotos-archivo/grilla4.png);
+    background-size: cover;
+}
+#grilla5-imagen{
+    background-image: url(fotos/fotos-archivo/grilla5.png);
+    background-size: cover;
+}
+#grilla6-imagen{
+    background-image: url(fotos/fotos-archivo/grilla6.png);
+    background-size: cover;
 }
