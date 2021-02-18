@@ -51,22 +51,26 @@ body{
 }
 #row3{
     background-image: url(fotos/row-3.jpg);
-    width: 494px;
+    width: 100%;
     height: 500px;
     background-size: cover;
+    
 }
 .parrafo{
-    font-size: 15px;
+    font-size: 18px;
     text-align: left;
     font-weight: normal;
     font-family: roboto;
     line-height: 33px;
+    width: 700px;
+    
 }
 #administracion{
     background-image: url(fotos/fotos-archivo/Img_Administración.png);
     height: 550px;
     width: 100%;
     background-size: cover;
+  
 }
 
 #administracion h3{
@@ -77,5 +81,15 @@ body{
 
 #administracion p{
     position: relative;
-    top: 150px;
+    top: 50px;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+.grilla1{
+    display: flex;
+    justify-content: space-around;
+    width: 1200px;
+    top: 20px;
+    
 }
