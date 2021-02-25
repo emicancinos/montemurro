@@ -223,3 +223,89 @@ body{
     width: 117px;
     height: 37px;
 }
+#contacto{
+    height: 260px;
+    top: 300px;
+    position: relative; 
+}
+#contacto h3{
+    font-weight: bold;
+    font-size: 4em;
+    margin-top: 100px;
+    letter-spacing: 2px;
+    text-align: right;
+}
+
+#contacto p{
+    font-size: 18px;
+    line-height: 40px;
+    text-align: left;
+    margin-left: 15px;
+    position: relative;
+    bottom: 100px;
+}
+#formulario-contacto2{
+    height: 550px;
+    position: relative;
+    top: 290px; 
+}
+#formulario-contacto2{
+    font-size: 18px;
+    line-height: 40px;
+    text-align: left;
+    margin-left: 15px;
+}
+#datos-contacto{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#nombre-formulario{
+    width: 430px;
+    height: 42px;
+    background-color: #DEDFE0;
+    border: #DEDFE0;
+    text-align: center;
+    position: relative;
+   
+}
+#email-formulario{
+    width: 430px;
+    height: 42px;
+    background-color: #DEDFE0;
+    border: #DEDFE0;
+    text-align: center;
+    position: relative;
+    top: 15px;
+    
+}
+#empresa-formulario{
+    width: 430px;
+    height: 42px;
+    background-color: #DEDFE0;
+    border: #DEDFE0;
+    text-align: center;
+    position: relative;
+    top: 30px;
+}
+#asunto-formulario{
+    width: 430px;
+    height: 42px;
+    background-color: #DEDFE0;
+    border: #DEDFE0;
+    text-align: center;
+    position: relative;
+    top: 45px;
+}
+#mensaje-formulario{
+    width: 430px;
+    height: 190px;
+    background-color: #DEDFE0;
+    border: #DEDFE0;
+    text-align: center;
+    position: relative;
+    top: 60px;
+}
+#mapa{
+    border: 20px solid #DEDFE0;
+}
