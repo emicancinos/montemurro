@@ -306,6 +306,42 @@ body{
     position: relative;
     top: 60px;
 }
+#enviar-formulario{
+    position: relative;
+    top: 70px;
+    width: 100px;
+    height: 37px;
+    text-align: center;
+    background-color: red;
+    border: red;
+}
+#a-formulario{
+    text-decoration: none;
+    color: #FFFFFF;
+}
 #mapa{
     border: 20px solid #DEDFE0;
+}
+#horarios-direccion{
+    position: relative;
+    top: 110px;
+    left: 65px;
+}
+#horarios-direccion p{
+    
+    font-size: 18px;
+    line-height: 40px;
+    margin-top: 10px;
+}
+#horarios-direccion h4{
+    font-weight: bold;
+    font-size: 18px;
+
+}
+#footer{
+    background-color: #8B8E91;
+    height: 270px;
+    position: relative;
+    top: 630px;
+    width: 100%;
 }
