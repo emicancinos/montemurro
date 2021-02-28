@@ -2,6 +2,7 @@ body{
     font-family: roboto;
     top: 90px;
     position: relative;
+    padding: 0;
 }
 #row{
     background-image: url(fotos/fotos-archivo/Banner.png);
@@ -16,6 +17,14 @@ body{
     text-align: left;
     padding-left: 6em;
     padding-top: 10em;
+}
+#consorcio-a{
+    text-decoration: none;
+    color: white;
+}
+#ingresar-a{
+    text-decoration: none;
+    color: white;
 }
 
 #fondo h1{
@@ -339,9 +348,22 @@ body{
 
 }
 #footer{
-    background-color: #8B8E91;
-    height: 270px;
+    height: 300px;
+    background-color: gray;
+    background-size: cover;
     position: relative;
-    top: 630px;
+    top: 350px;
     width: 100%;
+}
+#fb{
+    position: relative;
+    top: 60px;
+}
+#ig{
+    position: relative;
+    top: 60px;
+}
+#logo-footer{
+    position: relative;
+    top: 60px;
 }
